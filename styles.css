@@ -55,7 +55,7 @@ a:hover {
   color: white
 }
 
-header {
+header{
   text-align: center;
   background: url('images/helsinki.jpg') no-repeat top center ;
   background-size: cover;
@@ -75,6 +75,24 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1) rotate(360deg);
+
+}
+
+header .profile-image-experience {
+  margin-top: 25px;
+  width: 150px;
+  height: 200px;
+  border-radius: 75%;
+  border: 3px solid palevioletred;
+  transition: all .5s;
+}
+header .profile-image-hobbies {
+  margin-top: 25px;
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid palevioletred;
+  transition: all .5s;
 }
 .tag {
   background-color: #efefef;
